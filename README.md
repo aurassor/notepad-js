@@ -7,3 +7,5 @@ ao digitar uma tarefa e adicionar, a tarefa fica armazenada na LocalStorage do n
 O código sempre começa acessando a LocalStorage e atualizando as tarefas, e frequentemente armazena as tarefas no LocalStorage.
 
 As tarefas podem ser excluídas ou marcadas como concluídas, ao serem excluídas elas saem da memória do navegador, ao serem concluídas elas adiquirem esse atributo que pode ser revertido ao clicar na tarefa novamente, há também há indicação por checkbox.
+
+o site pode ser acessado em: https://aurassor.github.io/notepad-js/
