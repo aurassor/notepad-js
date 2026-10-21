@@ -1,0 +1,126 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin: 10px;
+}
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: #005cbd;
+    margin-top: 0;
+}
+
+/* A caixa que segura os dois elementos */
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 100%; /* Garante que a caixa ocupe todo o container branco */
+}
+
+/* O input fica com 8 partes (80%) */
+.input-section input {
+    flex-grow: 8; /* Faz o input crescer e ocupar o espaço livre */
+    margin-right: 5px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+/* O botão fica com 2 partes (20%) */
+.input-section button {
+    flex: 2;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+
+input:focus {
+    border-color: #007bff; /* Borda azul ao digitar */
+    transition: border-color 0.2s; /* Animação suave na borda */
+}
+
+button:hover {
+    background-color: #0056b3; /* Fica mais escuro ao passar o mouse */
+}
+
+.checkbox-tarefa {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+.texto-tarefa {
+    flex: 1;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+ul {
+    list-style-type: none; /* Remove as bolinhas padrão do HTML */
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    background-color: #f8f9fa;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-left: 5px solid #007bff; /* Detalhe azul na lateral */
+    cursor: pointer; /* Transforma o mouse em uma mãozinha (indica que é clicável) */
+    transition: background-color 0.2s; /* Suaviza a mudança de cor */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li:hover {
+    background-color: #e2e6ea; /* Escurece um pouco ao passar o mouse */
+}
+
+/* O fundo e a borda verde continuam na linha inteira (<li>) */
+.riscada {
+    background-color: #e9ecef;
+    border-left-color: #28a745;
+}
+
+/* O risco visual acontece APENAS no texto (<span>) interno */
+.riscada span {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+/* 7. Estilo do botão de deletar */
+.btn-deletar {
+    background-color: #dc3545; /* Vermelho */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-deletar:hover {
+    background-color: #c82333;
+}
