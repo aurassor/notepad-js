@@ -8,4 +8,4 @@ O código sempre começa acessando a LocalStorage e atualizando as tarefas, e fr
 
 As tarefas podem ser excluídas ou marcadas como concluídas, ao serem excluídas elas saem da memória do navegador, ao serem concluídas elas adiquirem esse atributo que pode ser revertido ao clicar na tarefa novamente, há também há indicação por checkbox.
 
-o site pode ser acessado em: https://aurassor.github.io/notepad-js/
+    o site pode ser acessado em: https://aurassor.github.io/notepad-js/
